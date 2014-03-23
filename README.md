@@ -68,7 +68,7 @@ docCtl.annotation = PPPicportOptions(<appName>, <backURL>, <hashTag>);
 Use CocoaPods,
 
 ```ruby
-pod 'ITKAppList', :git => 'https://github.com/itok/ITKAppList.git'
+pod 'PicportLauncher', :git => 'https://github.com/itok/PicportLauncher.git'
 ```
 
 ## License
