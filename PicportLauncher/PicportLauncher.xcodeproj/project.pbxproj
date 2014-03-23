@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571C57F118DB802600223276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571C57F018DB802600223276 /* Foundation.framework */; };
+		571C57F318DB802600223276 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571C57F218DB802600223276 /* CoreGraphics.framework */; };
+		571C57F518DB802600223276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571C57F418DB802600223276 /* UIKit.framework */; };
+		571C57FB18DB802600223276 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 571C57F918DB802600223276 /* InfoPlist.strings */; };
+		571C57FD18DB802600223276 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 571C57FC18DB802600223276 /* main.m */; };
+		571C580118DB802600223276 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 571C580018DB802600223276 /* AppDelegate.m */; };
+		571C580418DB802600223276 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571C580218DB802600223276 /* Main.storyboard */; };
+		571C580918DB802600223276 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571C580818DB802600223276 /* Images.xcassets */; };
+		571C581018DB802600223276 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571C580F18DB802600223276 /* XCTest.framework */; };
+		571C581118DB802600223276 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571C57F018DB802600223276 /* Foundation.framework */; };
+		571C581218DB802600223276 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 571C57F418DB802600223276 /* UIKit.framework */; };
+		571C581A18DB802600223276 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 571C581818DB802600223276 /* InfoPlist.strings */; };
+		571C581C18DB802600223276 /* PicportLauncherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571C581B18DB802600223276 /* PicportLauncherTests.m */; };
+		571C582818DB803100223276 /* Picport.m in Sources */ = {isa = PBXBuildFile; fileRef = 571C582718DB803100223276 /* Picport.m */; };
+		571C582D18DB807A00223276 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571C582A18DB807A00223276 /* 0.jpg */; };
+		571C582E18DB807A00223276 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 571C582B18DB807A00223276 /* 1.png */; };
+		571C582F18DB807A00223276 /* 2.mov in Resources */ = {isa = PBXBuildFile; fileRef = 571C582C18DB807A00223276 /* 2.mov */; };
+		571C583118DB809900223276 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 571C583018DB809900223276 /* 2.png */; };
+		571C583418DB876000223276 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571C583318DB876000223276 /* TableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		571C581318DB802600223276 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571C57E518DB802600223276 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571C57EC18DB802600223276;
+			remoteInfo = PicportLauncher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		571C57ED18DB802600223276 /* PicportLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicportLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		571C57F018DB802600223276 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		571C57F218DB802600223276 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		571C57F418DB802600223276 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		571C57F818DB802600223276 /* PicportLauncher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicportLauncher-Info.plist"; sourceTree = "<group>"; };
+		571C57FA18DB802600223276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		571C57FC18DB802600223276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		571C57FE18DB802600223276 /* PicportLauncher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PicportLauncher-Prefix.pch"; sourceTree = "<group>"; };
+		571C57FF18DB802600223276 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		571C580018DB802600223276 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		571C580318DB802600223276 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		571C580818DB802600223276 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		571C580E18DB802600223276 /* PicportLauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicportLauncherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		571C580F18DB802600223276 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		571C581718DB802600223276 /* PicportLauncherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PicportLauncherTests-Info.plist"; sourceTree = "<group>"; };
+		571C581918DB802600223276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		571C581B18DB802600223276 /* PicportLauncherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PicportLauncherTests.m; sourceTree = "<group>"; };
+		571C582618DB803100223276 /* Picport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picport.h; sourceTree = "<group>"; };
+		571C582718DB803100223276 /* Picport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picport.m; sourceTree = "<group>"; };
+		571C582A18DB807A00223276 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		571C582B18DB807A00223276 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		571C582C18DB807A00223276 /* 2.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 2.mov; sourceTree = "<group>"; };
+		571C583018DB809900223276 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		571C583218DB876000223276 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		571C583318DB876000223276 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		571C584118DC2D4100223276 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		575B8E0218DF71EF00CE9978 /* PicportLauncher.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = PicportLauncher.podspec; path = ../PicportLauncher.podspec; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571C57EA18DB802600223276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571C57F318DB802600223276 /* CoreGraphics.framework in Frameworks */,
+				571C57F518DB802600223276 /* UIKit.framework in Frameworks */,
+				571C57F118DB802600223276 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571C580B18DB802600223276 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571C581018DB802600223276 /* XCTest.framework in Frameworks */,
+				571C581218DB802600223276 /* UIKit.framework in Frameworks */,
+				571C581118DB802600223276 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571C57E418DB802600223276 = {
+			isa = PBXGroup;
+			children = (
+				571C584118DC2D4100223276 /* README.md */,
+				575B8E0218DF71EF00CE9978 /* PicportLauncher.podspec */,
+				571C57F618DB802600223276 /* PicportLauncher */,
+				571C582518DB803100223276 /* Picport */,
+				571C581518DB802600223276 /* PicportLauncherTests */,
+				571C57EF18DB802600223276 /* Frameworks */,
+				571C57EE18DB802600223276 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		571C57EE18DB802600223276 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571C57ED18DB802600223276 /* PicportLauncher.app */,
+				571C580E18DB802600223276 /* PicportLauncherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571C57EF18DB802600223276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				571C57F018DB802600223276 /* Foundation.framework */,
+				571C57F218DB802600223276 /* CoreGraphics.framework */,
+				571C57F418DB802600223276 /* UIKit.framework */,
+				571C580F18DB802600223276 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		571C57F618DB802600223276 /* PicportLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				571C57FF18DB802600223276 /* AppDelegate.h */,
+				571C580018DB802600223276 /* AppDelegate.m */,
+				571C583218DB876000223276 /* TableViewController.h */,
+				571C583318DB876000223276 /* TableViewController.m */,
+				571C580218DB802600223276 /* Main.storyboard */,
+				571C580818DB802600223276 /* Images.xcassets */,
+				571C582918DB807A00223276 /* data */,
+				571C57F718DB802600223276 /* Supporting Files */,
+			);
+			path = PicportLauncher;
+			sourceTree = "<group>";
+		};
+		571C57F718DB802600223276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				571C57F818DB802600223276 /* PicportLauncher-Info.plist */,
+				571C57F918DB802600223276 /* InfoPlist.strings */,
+				571C57FC18DB802600223276 /* main.m */,
+				571C57FE18DB802600223276 /* PicportLauncher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		571C581518DB802600223276 /* PicportLauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				571C581B18DB802600223276 /* PicportLauncherTests.m */,
+				571C581618DB802600223276 /* Supporting Files */,
+			);
+			path = PicportLauncherTests;
+			sourceTree = "<group>";
+		};
+		571C581618DB802600223276 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				571C581718DB802600223276 /* PicportLauncherTests-Info.plist */,
+				571C581818DB802600223276 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		571C582518DB803100223276 /* Picport */ = {
+			isa = PBXGroup;
+			children = (
+				571C582618DB803100223276 /* Picport.h */,
+				571C582718DB803100223276 /* Picport.m */,
+			);
+			name = Picport;
+			path = ../Picport;
+			sourceTree = "<group>";
+		};
+		571C582918DB807A00223276 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				571C583018DB809900223276 /* 2.png */,
+				571C582A18DB807A00223276 /* 0.jpg */,
+				571C582B18DB807A00223276 /* 1.png */,
+				571C582C18DB807A00223276 /* 2.mov */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571C57EC18DB802600223276 /* PicportLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571C581F18DB802600223276 /* Build configuration list for PBXNativeTarget "PicportLauncher" */;
+			buildPhases = (
+				571C57E918DB802600223276 /* Sources */,
+				571C57EA18DB802600223276 /* Frameworks */,
+				571C57EB18DB802600223276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicportLauncher;
+			productName = PicportLauncher;
+			productReference = 571C57ED18DB802600223276 /* PicportLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		571C580D18DB802600223276 /* PicportLauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571C582218DB802600223276 /* Build configuration list for PBXNativeTarget "PicportLauncherTests" */;
+			buildPhases = (
+				571C580A18DB802600223276 /* Sources */,
+				571C580B18DB802600223276 /* Frameworks */,
+				571C580C18DB802600223276 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571C581418DB802600223276 /* PBXTargetDependency */,
+			);
+			name = PicportLauncherTests;
+			productName = PicportLauncherTests;
+			productReference = 571C580E18DB802600223276 /* PicportLauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571C57E518DB802600223276 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = itok;
+				TargetAttributes = {
+					571C580D18DB802600223276 = {
+						TestTargetID = 571C57EC18DB802600223276;
+					};
+				};
+			};
+			buildConfigurationList = 571C57E818DB802600223276 /* Build configuration list for PBXProject "PicportLauncher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 571C57E418DB802600223276;
+			productRefGroup = 571C57EE18DB802600223276 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571C57EC18DB802600223276 /* PicportLauncher */,
+				571C580D18DB802600223276 /* PicportLauncherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571C57EB18DB802600223276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571C582D18DB807A00223276 /* 0.jpg in Resources */,
+				571C580918DB802600223276 /* Images.xcassets in Resources */,
+				571C583118DB809900223276 /* 2.png in Resources */,
+				571C57FB18DB802600223276 /* InfoPlist.strings in Resources */,
+				571C582F18DB807A00223276 /* 2.mov in Resources */,
+				571C580418DB802600223276 /* Main.storyboard in Resources */,
+				571C582E18DB807A00223276 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571C580C18DB802600223276 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571C581A18DB802600223276 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571C57E918DB802600223276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571C582818DB803100223276 /* Picport.m in Sources */,
+				571C580118DB802600223276 /* AppDelegate.m in Sources */,
+				571C57FD18DB802600223276 /* main.m in Sources */,
+				571C583418DB876000223276 /* TableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571C580A18DB802600223276 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571C581C18DB802600223276 /* PicportLauncherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		571C581418DB802600223276 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571C57EC18DB802600223276 /* PicportLauncher */;
+			targetProxy = 571C581318DB802600223276 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		571C57F918DB802600223276 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571C57FA18DB802600223276 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		571C580218DB802600223276 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571C580318DB802600223276 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		571C581818DB802600223276 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571C581918DB802600223276 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		571C581D18DB802600223276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		571C581E18DB802600223276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		571C582018DB802600223276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicportLauncher/PicportLauncher-Prefix.pch";
+				INFOPLIST_FILE = "PicportLauncher/PicportLauncher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		571C582118DB802600223276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicportLauncher/PicportLauncher-Prefix.pch";
+				INFOPLIST_FILE = "PicportLauncher/PicportLauncher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		571C582318DB802600223276 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PicportLauncher.app/PicportLauncher";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicportLauncher/PicportLauncher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PicportLauncherTests/PicportLauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		571C582418DB802600223276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PicportLauncher.app/PicportLauncher";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PicportLauncher/PicportLauncher-Prefix.pch";
+				INFOPLIST_FILE = "PicportLauncherTests/PicportLauncherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571C57E818DB802600223276 /* Build configuration list for PBXProject "PicportLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571C581D18DB802600223276 /* Debug */,
+				571C581E18DB802600223276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571C581F18DB802600223276 /* Build configuration list for PBXNativeTarget "PicportLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571C582018DB802600223276 /* Debug */,
+				571C582118DB802600223276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571C582218DB802600223276 /* Build configuration list for PBXNativeTarget "PicportLauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571C582318DB802600223276 /* Debug */,
+				571C582418DB802600223276 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 571C57E518DB802600223276 /* Project object */;
+}
