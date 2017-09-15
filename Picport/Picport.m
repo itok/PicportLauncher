@@ -12,8 +12,7 @@
 
 static NSString* __urlEncode(NSString* str) 
 {
-    CFStringRef encoded = CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (CFStringRef)str, nil, CFSTR(":/?=,!$&'()*+;[]@#"), kCFStringEncodingUTF8);
-    return (__bridge_transfer NSString*)encoded;
+    return [str stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet alphanumericCharacterSet]];
 }
 
 +(NSDictionary*) optionsWithAppName:(NSString*)appName backURL:(NSString*)backURL hashTag:(NSString*)hashTag
@@ -55,7 +54,8 @@ static NSString* __urlEncode(NSString* str)
     
     NSURL* url = [NSURL URLWithString:str];
     if (url) {
-        return [[UIApplication sharedApplication] openURL:url];
+        [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
+        return YES;
     }
     return NO;
 }
@@ -106,6 +106,24 @@ static NSString* __urlEncode(NSString* str)
     return [self openPicportWithBase:base options:options];
 }
 
++(BOOL) openPicportWithAssetIdentifiers:(NSArray*)identifiers options:(NSDictionary*)options
+{
+    if (![self isPicportAvailable]) {
+        return NO;
+    }
+    
+    if (!(identifiers && [identifiers count] > 0)) {
+        return NO;
+    }
+    
+    NSMutableArray* arr = [NSMutableArray array];
+    for (NSString* identifier in identifiers) {
+        [arr addObject:__urlEncode(identifier)];
+    }
+    NSString* base = [NSString stringWithFormat:@"%@://%@/?%@=%@", PPPicportScheme, PPPicportHostAssets, PPPicportParamIdentifiers, [arr componentsJoinedByString:@","]];
+    return [self openPicportWithBase:base options:options];
+}
+
 +(BOOL) openPicportWithLatestPhoto
 {
     NSString* base = [NSString stringWithFormat:@"%@://%@", PPPicportScheme, PPPicportAssetsLatest];
@@ -114,7 +132,8 @@ static NSString* __urlEncode(NSString* str)
 
 +(BOOL) openAppStore
 {
-    return [[UIApplication sharedApplication] openURL:[NSURL URLWithString:PPPicportAppStore]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:PPPicportAppStore] options:@{} completionHandler:nil];
+    return YES;
 }
 
 @end

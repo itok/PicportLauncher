@@ -67,6 +67,16 @@ static NSString* const PPPicportAppStore = @"http://itunes.apple.com/app/id82876
 +(BOOL) openPicportWithAssetURLs:(NSArray*)urls options:(NSDictionary*)options;
 
 /**
+ * use photos
+ * - identifiers:   assets local identifiers
+ * - options:       key-val options
+ *      - PPPicportParamAppName : sender application name
+ *      - PPPicportParamBackURL : sender application callback url
+ *      - PPPicportParamHashTag : hashtag
+ */
++(BOOL) openPicportWithAssetIdentifiers:(NSArray*)identifiers options:(NSDictionary*)options;
+
+/**
  * use latest photo
  */
 +(BOOL) openPicportWithLatestPhoto;
@@ -90,6 +100,8 @@ static NSString* const PPPicportAppStore = @"http://itunes.apple.com/app/id82876
 static NSString* const PPPicportParamPasteboardType = @"type";
 // assets urls (comma separated)
 static NSString* const PPPicportParamAssets = @"assets";
+// assets local identifiers (comma separated)
+static NSString* const PPPicportParamIdentifiers = @"identifiers";
 
 // use latest photo
 static NSString* const PPPicportAssetsLatest = @"latest";
